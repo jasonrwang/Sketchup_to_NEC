@@ -1,11 +1,11 @@
 # Sketchup to NEC
 Convert Sketchup edges (lines) to GW (wires) cards in Meters.
 
-##Installation:
+## Installation:
 Save this file to your Sketchup plugin folder as "to_nec.rb"
 See https://help.sketchup.com/en/article/38583 for more info.
 
-##Usage:
+## Usage:
 
 ### Sketchup
 Make sure that all groups and components are exploded before running this plugin.
@@ -20,7 +20,7 @@ This file was tested with:
 - Sketchup Make 2017 from https://www.sketchup.com/download/all
 - cocoaNEC 2.0 from http://www.w7ay.net/site/Applications/cocoaNEC/index.html
 
-##Result:
+## Result:
 ![Sketchup](http://i.imgur.com/aLJhKWz.png "Sketchup")
 
 4NEC:
