@@ -5,7 +5,7 @@ Title:
 Description:
     Convert edges (lines) to GW (wires) cards in Meters.
 Version:
-    20180311.002
+    20180311.003
 Author:
     EllisGL and jasonrwang
 Installation:
@@ -16,13 +16,13 @@ Usage:
     Click "Extensions", then "Convert to NEC".
     The console window will pop up and output the GW lines. Copy to your NEC file.
 Change Log:
-    20180311.002
-    jasonrwang update
+    20180311.003
+    Included number of simulation parts as a variable.
 =end
 require 'sketchup.rb'
 
 UI.menu("Plugins").add_item("Convert to NEC") {
-	model       = Sketchup.active_model
+    model       = Sketchup.active_model
     entities    = model.active_entities
     l           = 1000
     input       = UI.inputbox(["Wire Radius in Meters"])
